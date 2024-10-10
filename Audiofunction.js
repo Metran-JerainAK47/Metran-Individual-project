@@ -29,92 +29,92 @@ let track = document.createElement('audio');
 let All_song = [
       {
         name: "Sunflower ",
-        path: "music/sunflower.mp3",
-        img: "img/miles.jpg",
+        path: "sunflower.mp3",
+        img: "miles.jpg",
         singer: "By: Post Malone"
 
       },
       {
         name: "Suzume",
-        path: "music/suzume.mp3",
-        img: "img/crowsdoor.jpg",
+        path: "suzume.mp3",
+        img: "crowsdoor.jpg",
         singer: "by: Radwimps"
 
       },
       {
         name: "One voice",
-        path: "music/Onevoice.mp3",
-        img: "img/rokudenashi.jpg",
+        path: "Onevoice.mp3",
+        img: "rokudenashi.jpg",
         singer: "By: Rokudenashi"
 
       },
       {
         name: "W.I.T.L",
-        path: "music/where is the love.mp3",
-        img: "img/where.jpg",
+        path: "where is the love.mp3",
+        img: "where.jpg",
         singer: "By: Black eyed Peas"
 
       },
       {
         name: "Enemy ",
-        path: "music/enemy.mp3",
-        img: "img/arcane.jpg",
+        path: "enemy.mp3",
+        img: "arcane.jpg",
         singer: "By: Imagine dragons x JID"
 
       },
       {
         name: "Long live  ",
-        path: "music/long live.mp3",
-        img: "img/taylor.jpg",
+        path: "long live.mp3",
+        img: "taylor.jpg",
         singer: "By: Taylor Swift"
 
       },
       {
         name: "Unravel",
-        path: "music/unravel.mp3",
-        img: "img/kaneki.jpg",
+        path: "unravel.mp3",
+        img: "kaneki.jpg",
         singer: "By: TK"
 
       },
       {
         name: " Yoru ni kakeru ",
-        path: "music/racing.mp3",
-        img: "img/yorunikakeru.jpg",
+        path: "racing.mp3",
+        img: "yorunikakeru.jpg",
         singer: "By: YOASOBI"
 
       },
       {
         name: " ADAMAS ",
-        path: "music/adamas.mp3",
-        img: "img/SAO.jpg",
+        path: "adamas.mp3",
+        img: "SAO.jpg",
         singer: "By: LiSA"
 
       },
       {
         name: " Compared Child ",
-        path: "music/tuyu.mp3",
-        img: "img/COMPARED.jpg",
+        path: "tuyu.mp3",
+        img: "COMPARED.jpg",
         singer: "By: Tuyu"
 
       },
       {
         name: " Rising Hope ",
-        path: "music/Risinghope.mp3",
-        img: "img/lisahope.jpg",
+        path: "Risinghope.mp3",
+        img: "lisahope.jpg",
         singer: "By: LiSA"
 
       },
       {
         name: "Grateful ",
-        path: "music/grateful.mp3",
-        img: "img/neffex.jpg",
+        path: "grateful.mp3",
+        img: "neffex.jpg",
         singer: "By: NEFFEX "
 
       },
       {
         name: "Gurenge ",
-        path: "music/gurenge.mp3",
-        img: "img/gurengelisa.jpg",
+        path: "gurenge.mp3",
+        img: "gurengelisa.jpg",
         singer: "By: LiSA"
 
       },
