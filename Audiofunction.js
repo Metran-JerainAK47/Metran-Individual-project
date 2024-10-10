@@ -44,7 +44,7 @@ let All_song = [
       {
         name: "One voice",
         path: "Onevoice.mp3",
-        img: "rokudenashi.jpg",
+        img: "Rokudenashi.jpg",
         singer: "By: Rokudenashi"
 
       },
