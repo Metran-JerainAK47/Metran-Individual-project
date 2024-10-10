@@ -1,0 +1,254 @@
+
+/*Imported fonts from the other websites*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Marcellus+SC");
+
+
+/* Cursor image design */
+html {
+    cursor: url("CURSOR (1).png"), auto;
+
+}
+
+/*All will be applied*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Marcellus SC', serif;
+color:  #cdbe91;
+letter-spacing: 1px;
+
+}
+
+
+/*Items inside the body will be center allign*/
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+background-size: cover;
+background-position: center; 
+
+}
+
+/*The css design for mp4 background*/
+.back-video {
+position: absolute;
+right: 0;
+position: center;
+object-fit: 200px 300px;
+bottom: 0;
+z-index: -1;
+
+}
+
+@media (min-aspect-ratio: 16/9){
+.back-video {
+width: 100%;
+
+}
+}
+
+
+@media (min-aspect-ratio: 16/9){
+    .back-video {
+    height: 100%;
+    object-fit: cover;
+    
+    }
+    }
+
+/*the container for log in */
+.wrapper {
+transition: background-color 0.3s ease;
+animation: fadeInOut 0.5s ease-in-out;
+width: 420px;
+background-color:#1e2328;
+border: 2px solid rgba(0, 0, 0, 0.2);
+box-shadow: 0 0 10px rgba(0,0,0,.1);
+border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+border-image-slice: 1;
+backdrop-filter: blur(20px);
+box-shadow: 0 0 10px rgba(0,0,0,.2);
+color: #fff;
+border-radius: 0;
+padding: 30px 40px ;
+z-index: 10;
+
+}
+
+/*fading animation*/
+@keyframes fadeInOut{
+    0%   { 
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    }
+
+    /*design for the heading inside the wrapper*/
+.wrapper h1 {
+font-size: 36px;
+text-align: center;
+
+}
+
+/*design log in button*/
+.wrapper .input-box {
+position: relative;
+width: 100%;
+height: 50px; 
+margin: 30px 0;
+
+
+}
+
+.input-box input {
+width: 100%;
+height: 100%;
+background: #1e2328;
+border:none;
+outline: none;
+border: 2px solid rgba(255,255,255,.2);
+border-radius: 40px;
+font-size: 16px;
+color: #fff;
+padding: 20px 45px 20px 20px;
+
+}
+
+.input-box input::placeholder {
+color: #fff;
+
+}
+
+.input-box i {
+position: absolute;
+right: 20px;
+top: 50%;
+transform: translateY(-50%);
+font-size: 20px;
+
+
+}
+
+.wrapper .remember-forgot {
+display: flex;
+justify-content: space-between;
+font-size: 14.5px;
+margin: -15px 0 15px;
+
+}
+
+.remember-forgot label input {
+accent-color: #fff;
+margin-right: 3px;
+
+}
+
+.remember-forgot a {
+color: #fff;
+text-decoration: none;
+
+}
+
+.remember-forgot a:hover {
+text-decoration: underline;
+
+}
+
+
+/* LOG IN BUTTON */
+.wrapper .btn {
+width: 100%;
+height: 45px;
+background: #1e2328;
+border: 2px solid rgba(0, 0, 0, 0.2);
+outline: none;
+border-radius:0;
+box-shadow: 0 0 10px rgba(0,0,0,.1);
+border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+border-image-slice: 1;
+cursor: pointer;
+font-size: 16px;
+color: #ffffff;
+font-weight: 600;
+letter-spacing: 1px;
+
+}
+
+.btn:hover {
+    text-shadow: 0 0 5px #ffffff80;
+    box-shadow: 0 0 8px 0 #ffffff50;
+    background: linear-gradient(to bottom, #1e2328, #433d2b);
+    cursor: pointer;
+    transition: 0.1s;
+  }
+  
+  .btn:active {
+    text-shadow: none;
+    box-shadow: none;
+    color: #cdbe9130;
+  }
+
+
+/* MODAL CSS CODE */
+
+.modal {
+    display: none; 
+    position:fixed;
+    z-index: 1; 
+
+
+}
+
+/*the close feature inside the wrapper*/
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* MODAL BUTTON DESIGN */
+
+.bottom-button {
+    
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#1e2328;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    font-family: 'Marcellus SC', serif;
+    font-size: 30px;
+color:  #cdbe91;
+padding:5px 15px;
+box-shadow: inset 0 0 2px #000000;
+border-image: linear-gradient(to bottom, #ad8536, #7a5c29);
+border-image-slice: 1;
+letter-spacing: 1px;
+font-weight: bold;
+border-width: 2px;
+}
+
+button:hover {
+    text-shadow: 0 0 5px #ffffff80;
+    box-shadow: 0 0 8px 0 #ffffff50;
+    background: linear-gradient(to bottom, #1e2328, #433d2b);
+    cursor: pointer;
+    transition: 0.1s;
+  }
+  
+  button:active {
+    text-shadow: none;
+    box-shadow: none;
+    color: #cdbe9130;
+  }
+

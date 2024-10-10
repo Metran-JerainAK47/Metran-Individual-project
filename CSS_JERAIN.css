@@ -1,0 +1,341 @@
+
+
+/*Imported fonts from the other website*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Marcellus+SC");
+
+
+
+/*Imported font*/
+@font-face {
+    font-family: 'SPIEGEL';
+    src: url('SPIEGEL.ttf') format('opentype');
+}
+
+/*the cursor design*/
+html {
+    cursor: url("CURSOR (1).png"), auto;
+
+}
+
+/*the imported font for headings*/
+* {
+font-family: "Marcellus SC",sans-serif;
+letter-spacing: 1px;
+
+}
+
+h1 {
+text-align: center;
+color: #ad8536;
+}
+
+p {
+color: #fff;
+font-family: 'SPIEGEL' , sans-serif;
+font-size:  14px; ;
+line-height: 5px;
+}
+
+/*before hover*/
+.btn { 
+letter-spacing:1px;
+margin:10px auto 20px ;   
+font-weight: bold;
+text-decoration: none;
+border:none;
+background-color: transparent;
+padding:10px 1px;
+font-size: 16px;
+display: inline-block;
+transition:  0.3s ease;
+text-transform: uppercase;
+    color: #ad8536;
+    cursor: url("CURSOR (2).png"), auto;
+    
+}
+
+
+.hover-button {
+    cursor: url("CURSOR (2).png"), auto;
+}
+
+
+.hover-button:hover {
+    background-color: #ddd;
+    cursor: url("CURSOR (2).png"), none;
+}
+
+/*when hovering*/
+.btn:hover {
+padding: left 0%;
+padding: right 0%;
+color:  #cf8e0a;
+border-radius :4px;
+padding-top:  6px;
+padding-bottom: 6px;
+text-shadow: 0 0 5px #ffffff80;
+box-shadow: 0 0 8px 0 #ffffff50;
+background: linear-gradient(to bottom, #1e2328, #433d2b);
+transition: 0.1s;
+border: 2px solid rgba(0, 0, 0, 0.2);
+box-shadow: inset 0 0 2px #000000;
+border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+border-image-slice: 1;
+cursor: url("CURSOR (2).png"), auto;
+}
+
+/*Navigator*/
+nav {
+    word-spacing:1px;
+position: fixed;
+top:0;
+width: 100%;
+padding: 10px ;
+background: linear-gradient(to bottom , #000,#101214,#15181ba2, #00000000);
+text-align:center ;
+z-index:1000 ;
+
+ 
+}
+
+/*links in navigator*/
+nav a {
+text-decoration: none;
+top:10px ;
+padding:15px;
+cursor: url("CURSOR (2).png"), none;
+    
+}
+
+a {
+    color: #fff;
+}
+
+.nav:hover{
+    color: #ad8536;
+
+}
+
+/*the design for conatainer*/
+.container{
+
+box-shadow: 2px 5px 5px black;
+background: rgba(0, 0, 0, 0.678);
+backdrop-filter: blur(50px);
+color:#15181b;
+display: none;
+margin: 170px auto 20px;
+width: 80%;
+max-width: 600px;
+padding: 20px;
+border: 2px solid rgba(255,255,255,.2);
+border-radius: 8px;
+border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+border-image-slice: 1;
+animation: fadeInOut 0.5s ease-in-out;
+}
+
+
+/*the opacity of fade in animation*/
+@keyframes fadeInOut{
+0%   { 
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+
+/*the header title on the left (I'll change it soon)*/
+.logo {
+color: #ad8536;
+position: sticky;    
+padding:35px 35px;
+float: left;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+/*the background image in the body*/
+body {
+
+width: 100%;
+height: 100vh;
+background: url(destroyer.jpg) fixed;
+background-size: cover;
+background-position: center;
+
+
+}
+
+#galleryContainer {
+       max-width: 1600px;
+       padding: 20px;
+
+}
+
+/*GALERY FEATURE */
+
+.GALLERY {
+       display: inline-block;
+       
+border: 2px solid rgba(0, 0, 0, 0.2);
+box-shadow: inset 0 0 2px #000000;
+border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+border-image-slice: 1;
+       margin: 10px ;
+       width: 150px;
+       background-color:white ;
+       align-items: center;
+       justify-content: center;
+}
+
+.GALLERY .description {
+    padding: 10px;
+    text-align: center;
+    font-family: 'SPIEGEL' ,sans-serif;
+    color: #fff;
+    background-color: #1e2328;
+}
+
+.GALLERY:hover {
+    border: 2px solid #202020;
+    transition: 0.5s ease;
+}
+
+.GALLERY img {
+    width: 100%;
+    height: auto;
+    
+    cursor: url("CURSOR (2).png"), auto;
+    
+}
+
+/*FOOTER DESIGN*/
+
+
+footer {
+    position: sticky;
+    font-family: Arial, sans-serif;
+}
+
+.contact-info p,
+.social-media a {
+    margin: 5px 0;
+}
+
+.social-media a {
+    transition: transform 0.2s;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+}
+
+
+/*Audio hyperlink button*/
+
+
+.AUDIOPLAYER {
+    text-align: center;
+border: 2px solid rgba(255,255,255,.2);
+border-radius: 8px;
+border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+border-image-slice: 1;
+background: linear-gradient(to bottom, #1e2328, #433d2b);
+
+}
+
+.AUDIOPLAYER:hover {
+    text-shadow: 0 0 5px #ffffff80;
+    box-shadow: 0 0 8px 0 #ffffff50;
+    background: linear-gradient(to bottom, #1e2328, #433d2b);
+    cursor: pointer;
+    transition: 0.1s;
+    cursor: url("CURSOR (2).png"), auto;
+}
+
+/*Log out button design*/
+
+.Exit {
+    
+      
+      background: transparent;
+      border: none;
+      position: sticky;
+      font-size:xx-large;
+      position: relative;
+      margin-right: 60px;
+      float: right;
+      cursor: url("CURSOR (2).png"), auto;
+}
+
+.Exit:hover{
+    
+text-shadow: 0 0 5px #ffffff80;
+
+}
+
+
+
+
+.modal {
+    max-width: 500px;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    align-content: center;
+    justify-content: center;
+    backdrop-filter: blur(30px);
+    box-shadow: #000000c4 10px  ;
+    margin-top: 100px;
+    margin-left: 410px;
+    
+transition: background-color 0.3s ease;
+animation: fadeInOut 0.5s ease-in-out;
+   
+}
+
+
+.modal , .BUTTON {
+    color: white;
+    background: linear-gradient(to bottom, #1e2328, #0e0c09ab);
+border: 2px solid rgba(255,255,255,.2);
+border-radius: 8px;
+border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+border-image-slice: 1;
+
+transition: background-color 0.3s ease;
+animation: fadeInOut 0.5s ease-in-out;
+cursor: url("CURSOR (2).png"), auto;
+
+}
+
+.BUTTON:hover {
+
+    cursor: url("CURSOR (2).png"), auto;
+    text-shadow: 0 0 5px #ffffff80;
+    
+
+
+}
+
+#No {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    transition: background-color 0.3s ease;
+    animation: fadeInOut 0.5s ease-in-out;
+
+}
+
+.BUTTON{
+    word-spacing: 100px;
+}
+
+
+
+

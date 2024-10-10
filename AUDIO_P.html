@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<title>Audio player</title>
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="AUDIO_PLAYER.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+
+   
+<video autoplay loop muted plays-inline class="back-video">
+   <source src="lanterns.mp4" type="video/mp4">
+</video>
+
+
+  
+   <button class="Exit"><a class="EXIT" style="text-decoration: none;color: #fff;" href="My_website.html">Back</a></button>
+
+<div class="main">
+
+
+   <p id="logo"><i class="fa fa-music" aria-hidden="true"> music</i></p>
+
+   <!--left part-->
+   <div class="left">
+
+    <!--song image-->
+   <img id="track_image">
+   <div class="volume">
+
+    <p id="volume_show">90</p>
+   <i class="fa fa-volume-up" aria-hidden="true" id="volume_icon" onclick="mute_sound()"></i>
+   <input type="range" mine="0" max="100" value="90" onchange="volume_change()" id="volume">
+
+
+   </div>
+    </div>
+<!--right part-->
+<div class="right">
+     <div class="show_song_no">
+        <p id="present">1</p>
+        <p>/</p>
+        <p id="total">13</p>
+     </div>
+
+          <!--Song title-->
+        <p id="title"> Sunflower </p>
+        <p id="artist"> Post malone </p>
+
+                  <!--middle part-->
+
+  <div class="middle">
+     <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+
+         <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+
+     <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+  </div>
+
+                    <!--song duration part-->
+           <div class="duration">
+                <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+           </div>
+        <button id="auto" onclick="autoplay_switch()">Auto play 
+            <i class="fa fa-circle-o-notch" aria-hidden="true"></i></button>
+
+
+
+</div>
+
+
+</div>
+
+<script src="Audiofunction.js"></script>
+
+
+</body>
+</html>
+
