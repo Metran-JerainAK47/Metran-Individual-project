@@ -124,13 +124,13 @@ border-radius: 40px;
 font-size: 16px;
 color: #fff;
 padding: 20px 45px 20px 20px;
-font-famliy: 'SPIEGEL' ,sans-serif;
+font-family: 'SPIEGEL' ,sans-serif;
 
 }
 
 .input-box input::placeholder {
 color: #fff;
-    font-famliy: 'SPIEGEL' ,sans-serif;
+    font-family: 'SPIEGEL' ,sans-serif;
 
 }
 
@@ -141,6 +141,11 @@ top: 50%;
 transform: translateY(-50%);
 font-size: 20px;
 
+
+}
+
+.input-box {
+      font-family: 'SPIEGEL' ,sans-serif;
 
 }
 
@@ -155,17 +160,20 @@ margin: -15px 0 15px;
 .remember-forgot label input {
 accent-color: #fff;
 margin-right: 3px;
+      cursor: url("CURSOR (2).png"), auto;
 
 }
 
 .remember-forgot a {
 color: #fff;
 text-decoration: none;
+      cursor: url("CURSOR (2).png"), auto;
 
 }
 
 .remember-forgot a:hover {
 text-decoration: underline;
+      cursor: url("CURSOR (2).png"), auto;
 
 }
 
