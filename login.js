@@ -4,8 +4,8 @@
 function validateLogin() {
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
-    const correctUsername = "user";
-    const correctPassword = "pass";
+    const correctUsername = "Touchsomegrass96";
+    const correctPassword = "1two3four5";
 
     if (username === correctUsername && password === correctPassword) {
         // Redirect to another page
